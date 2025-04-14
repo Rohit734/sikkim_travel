@@ -1,0 +1,25 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sikkim Travel</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sikkim Travel</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/about/">About</a> |
+            <a href="/contact/">Contact</a>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>© 2025 Sikkim Travel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
