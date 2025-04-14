@@ -13,9 +13,6 @@ build/
 # Django
 *.sqlite3
 db.sqlite3
-media/
-staticfiles/
-static_root/
 .env
 .env.*
 
